@@ -3,12 +3,12 @@ cask "swift-craft-launcher" do
 
   on_arm do
     sha256 :no_check
-    url "https://github.com/suhang12332/Swift-Craft-Launcher/releases/download/v#{version}/SwiftCraftLauncher-v#{version}-arm64.dmg"
+    url "https://github.com/suhang12332/Swift-Craft-Launcher/releases/download/#{version}/Swift_Craft_Launcher_arm64_#{version}.dmg"
   end
 
   on_intel do
     sha256 :no_check
-    url "https://github.com/suhang12332/Swift-Craft-Launcher/releases/download/v#{version}/SwiftCraftLauncher-v#{version}-x86_64.dmg"
+    url "https://github.com/suhang12332/Swift-Craft-Launcher/releases/download/#{version}/Swift_Craft_Launcher_x86_64_#{version}.dmg"
   end
 
   name "Swift Craft Launcher"
