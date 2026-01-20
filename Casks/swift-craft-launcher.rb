@@ -3,17 +3,17 @@ cask "swift-craft-launcher" do
 
   on_arm do
     sha256 :no_check
-    url "https://github.com/suhang12332/Swift-Craft-Launcher/releases/download/#{version}/Swift_Craft_Launcher_arm64_#{version}.dmg"
+    url "https://github.com/suhang12332/Swift-Craft-Launcher/releases/download/#{version}/Swift-Craft-Launcher-arm64-#{version}.dmg"
   end
 
   on_intel do
     sha256 :no_check
-    url "https://github.com/suhang12332/Swift-Craft-Launcher/releases/download/#{version}/Swift_Craft_Launcher_x86_64_#{version}.dmg"
+    url "https://github.com/suhang12332/Swift-Craft-Launcher/releases/download/#{version}/Swift-Craft-Launcher-x86-64-#{version}.dmg"
   end
 
   name "Swift Craft Launcher"
   desc "Modern Minecraft launcher for macOS built with SwiftUI"
-  homepage "https://suhang12332.github.io/swift-craft-launcher-web.github.io/"
+  homepage "https://suhang12332.github.io/Swift-Craft-Launcher-Assets/web/"
 
   livecheck do
     url :url
