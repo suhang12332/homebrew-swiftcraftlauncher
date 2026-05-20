@@ -13,7 +13,7 @@ cask "swift-craft-launcher" do
 
   name "Swift Craft Launcher"
   desc "Modern Minecraft launcher for macOS built with SwiftUI"
-  homepage "https://suhang12332.github.io/Swift-Craft-Launcher-Assets/web/"
+  homepage "https://web.scl.isiah.top"
 
   livecheck do
     url :url
