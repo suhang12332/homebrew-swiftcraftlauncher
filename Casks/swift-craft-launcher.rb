@@ -20,7 +20,7 @@ cask "swift-craft-launcher" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Swift Craft Launcher.app"
 
