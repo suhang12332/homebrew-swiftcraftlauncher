@@ -1,5 +1,5 @@
 cask "swift-craft-launcher" do
-  version "1.2.2"
+  version "1.2.3"
 
   on_arm do
     sha256 :no_check
