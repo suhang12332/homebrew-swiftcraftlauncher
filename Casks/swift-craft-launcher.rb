@@ -1,14 +1,14 @@
 cask "swift-craft-launcher" do
-  version "1.2.6"
+  version "1.2.7"
 
   arch arm: "arm64", intel: "x86-64"
 
   on_arm do
-    sha256 "5b8f965f2c78f65cb181927d4ec06afb366ecdd3c94735602676031da33127df"
+    sha256 "210663286d7d83b3ab71d044a2a3bb5cf2a53aecf73da93a7705ec02f13ca6ba"
   end
 
   on_intel do
-    sha256 "95bec5229abd3105dab60e6d23b106386ac3973e3c2a216fb3262f4f591a3a4b"
+    sha256 "98a434a43058d8c92835cddbb4c0e1b64ac897263c8b32ef68df21780203c217"
   end
 
   url "https://github.com/suhang12332/Swift-Craft-Launcher/releases/download/#{version}/Swift-Craft-Launcher-#{arch}-#{version}.dmg"
